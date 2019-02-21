@@ -38,19 +38,19 @@ import RNBraintreeApplePay from 'react-native-braintree-apple-pay';
 ...
 
 <Button
-	title='Press it'
-	onPress={() => {
-		ApplePay.show({
-			clientToken: 'your_client_token',
-			merchantIdentifier: 'merchant_identifier',
-			countryCode: 'US',
-			currencyCode: 'USD',
-			merchantName: 'MerchantCompany',
-			orderTotal: '10',
-		})
-			.then(console.log)
-			.catch(console.log)
-	}}
+  title='Press it'
+  onPress={() => {
+    ApplePay.show({
+      clientToken: 'your_client_token',
+      merchantIdentifier: 'merchant_identifier',
+      countryCode: 'US',
+      currencyCode: 'USD',
+      merchantName: 'MerchantCompany',
+      orderTotal: '10',
+    })
+      .then(console.log)
+      .catch(console.log)
+  }}
 />
 ...
 
