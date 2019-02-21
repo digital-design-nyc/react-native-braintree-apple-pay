@@ -1,7 +1,6 @@
-
 {
   "name": "react-native-braintree-apple-pay",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Native integration of Braintree Apple Pay",
   "main": "index.js",
   "scripts": {
