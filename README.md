@@ -3,7 +3,15 @@
 
 ## Getting started
 
+Run 
+
 `$ npm install react-native-braintree-apple-pay --save`
+
+or
+
+`$ yarn add react-native-braintree-apple-pay`
+
+for adding package.
 
 ### Mostly automatic installation
 
@@ -21,6 +29,7 @@ In your `Podfile`, add:
 ```
 pod 'Braintree'
 pod 'Braintree/Apple-Pay'
+pod 'Braintree/DataCollector'
 ```
 
 Then:
