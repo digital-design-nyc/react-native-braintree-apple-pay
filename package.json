@@ -15,5 +15,5 @@
   "peerDependencies": {
     "react-native": "^0.41.2"
   },
-  "homepage": "https://github.com/san-smith/RNBraintreeApplePay"
+  "homepage": "https://github.com/digital-design-nyc/react-native-braintree-apple-pay"
 }
