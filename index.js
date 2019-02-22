@@ -1,6 +1,7 @@
 
-import { NativeModules } from 'react-native';
+import { Platform } from 'react-native';
 
-const { RNBraintreeApplePay } = NativeModules;
-
-export default RNBraintreeApplePay;
+export default Platform.select({
+  ios: require('./ios').default,
+  android: require('./android').default,
+})
